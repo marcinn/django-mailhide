@@ -1,0 +1,5 @@
+{% load i18n %}
+<a class="mailto" href="{{ target_url|safe }}"
+   title="{% trans "Click to open email" %}">
+    {{ prefix }}...@{{ domain }}
+</a>
