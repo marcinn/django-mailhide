@@ -53,5 +53,6 @@ def mailhide(value):
     ctx['target_url'] = href
 
     return mark_safe(
-        render_to_string("mailhide/obfuscated_email.html", ctx)
+        render_to_string(("mailhide/custom_obfuscated_email.html",
+                          "mailhide/obfuscated_email.html"), ctx)
     )
