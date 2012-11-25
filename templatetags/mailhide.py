@@ -54,5 +54,4 @@ def mailhide(value):
 
     return mark_safe(
         render_to_string(("mailhide/custom_obfuscated_email.html",
-                          "mailhide/obfuscated_email.html"), ctx)
-    )
+                          "mailhide/obfuscated_email.html"), ctx))
