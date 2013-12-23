@@ -9,9 +9,20 @@ setup(
     name='django-mailhide',
     version='1.0',
     packages=['django_mailhide', 'django_mailhide.templatetags'],
-    url='https://pypi.python.org/pypi/django-mailhide',
+    url='https://github.com/jbzdak/django-mailhide',
     license='BSD-style two clause',
     author='Jacek Bzdak',
     author_email='jbzdak@gmail.com',
-    description=DESCRIPTION
+    description=DESCRIPTION,
+    classifiers="""
+Development Status :: 5 - Production/Stable
+Environment :: Web Environment
+Framework :: Django
+Intended Audience :: Developers
+License :: OSI Approved :: BSD License
+Natural Language :: Polish
+Natural Language :: English
+Programming Language :: Python :: 2.7
+Programming Language :: Python :: 3.3
+    """
 )
