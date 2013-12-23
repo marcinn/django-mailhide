@@ -7,7 +7,7 @@ with codecs.open("readme.rst", encoding="utf-8") as f:
 
 setup(
     name='django-mailhide',
-    version='1.0',
+    version='1.0.1',
     packages=['django_mailhide', 'django_mailhide.templatetags'],
     url='https://github.com/jbzdak/django-mailhide',
     license='BSD-style two clause',
