@@ -1,6 +1,10 @@
 import base64
 import binascii
-from urllib import urlencode
+
+try:
+    from urllib import urlencode
+except ImportError:
+    from urllib.parse import urlencode
 
 from Crypto.Cipher import AES
 from django.template.loader import render_to_string
